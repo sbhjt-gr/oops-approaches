@@ -1,4 +1,4 @@
-Create a class MyClass which has member variable x of integer type and have the
+/* Create a class MyClass which has member variable x of integer type and have the
 following constructors
 MyClass( ) // Default
 MyClass(int)// Parameterized
@@ -11,8 +11,7 @@ the program. Display appropriate message which constructor is called using objec
 Write down observations the order the objects are created and destroyed. Modify program by using
 the concept of pointer to objects. Create dynamic object using new operator and use delete for
 destruction for the class Myclass.
-
-=>
+*/
 
 #include <iostream>
 
