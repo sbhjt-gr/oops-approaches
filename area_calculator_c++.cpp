@@ -22,13 +22,13 @@ double Area(int height, int width) {
 
 // Circle
 double Area(float side) {
-    double pi = M_PI;
+    const double pi = M_PI;
     return pi * side * side;
 }
 
 int main() {
     int type, side, height, width;
-    float cside;
+    float radius;
     cout << "1 for Square\n2 for Rectangle\n3 for Circle\n4 to Exit\nChoose any. Type: ";
     cin >> type;
     switch(type) {
@@ -46,8 +46,8 @@ int main() {
             break;
         case 3:
             cout << "Enter the side of circle: ";
-            cin >> cside;
-            cout << "The area of the circle is: " << Area(cside);
+            cin >> radius;
+            cout << "The area of the circle is: " << Area(radius);
             break;
         default:
             break;
