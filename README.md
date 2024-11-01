@@ -1,1 +1,1 @@
-All the questions are written as a comments in the files itself. The codes are self-written and are verified as if it is the correct answer to the question.
+You will find multiple object-oriented programming related problem statements here and their solutions. All the questions are written as a comments in the files itself. The codes are self-written and are human-verified as if it is the correct answer to the question.
