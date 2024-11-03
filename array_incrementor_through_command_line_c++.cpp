@@ -1,4 +1,6 @@
-/* Write a program which uses three command-line arguments to initialize an array. When the program executes, if args.length is not 3, the program prints an error message and terminates, otherwise, it initializes and displays the array based on the values of the command-line arguments. The args[ 0 ] specifies the array size, args[ 1 ] and args[ 2 ] are initial value and increment respectively. Calculate the value for each array element */
+/* 
+Write a program that uses three command-line arguments to initialize an array. When the program executes, if argc is not 4, the program prints an error message and terminates. Otherwise, it initializes and displays the array based on the values of the command-line arguments. The argv[1] specifies the array size, argv[2] is the initial value, and argv[3] is the increment. Calculate the value for each array element.
+*/
 
  #include <iostream>
  using namespace std;
